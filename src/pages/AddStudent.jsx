@@ -25,9 +25,8 @@ export default function AddStudent() {
           phone: form.phone
         },
         {
-          headers: {
-            Authorization: token
-          }
+           headers: { Authorization: `Bearer ${token}` }
+
         }
       );
 
